@@ -10,7 +10,9 @@
 
 Start by installing the dependencies:
 
-> pip install -r requirements.txt
+```bash
+pip install -r requirements.txt
+```
 
 Then, download the appropriate version of [ChromeDriver](https://chromedriver.chromium.org/downloads) based on your system's Chrome Browser version and place it in the same directory as **Gulpy**.
 
@@ -18,7 +20,9 @@ Then, download the appropriate version of [ChromeDriver](https://chromedriver.ch
 
 **Gulpy** is designed to be run from the command line. It can be run with the following command:
 
-> python gulpy.py
+```bash
+python gulpy.py
+```
 
 ## Gulpy the Gulper.io Bot in Action
 
