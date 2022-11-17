@@ -4,9 +4,10 @@
 
 ## Installation
 
-**Gulpy** requires Python 3 or higher and [ChromeDriver](https://chromedriver.chromium.org/downloads). It also requires the following Python packages:
+**Gulpy** requires Python 3 or higher. It also requires the following Python packages:
 
   * [selenium](https://pypi.org/project/selenium/)
+  * [undetected-chromedriver](https://pypi.org/project/undetected-chromedriver/)
 
 Start by installing the dependencies:
 
@@ -14,7 +15,7 @@ Start by installing the dependencies:
 pip install -r requirements.txt
 ```
 
-Then, download the appropriate version of [ChromeDriver](https://chromedriver.chromium.org/downloads) based on your system's Chrome Browser version and place it in the same directory as **Gulpy**.
+Since we are using the **undetected-chromedriver** package, we don't need to install ChromeDriver separately. The **undetected-chromedriver** package will automatically download the latest version of ChromeDriver and install it for you.
 
 ## Usage
 
