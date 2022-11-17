@@ -1,22 +1,18 @@
 import time
 import random
-from selenium import webdriver
-from selenium.webdriver.chrome.options import Options
-from selenium.webdriver.chrome.service import Service
 from selenium.webdriver import ActionChains
-from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
+import undetected_chromedriver as uc
 
 # Prepare Selenium Driver Options
-options = Options()
+options = uc.ChromeOptions()
 # options.add_argument('--headless')  # Run Selenium Driver in Headless Mode
 # options.add_argument('--no-sandbox') # No Sandbox for Selenium Driver
 # options.add_argument('--disable-dev-shm-usage') # Disable Dev Shm Usage for Selenium Driver
 
 # Create Selenium Driver
-driver: webdriver.Chrome = webdriver.Chrome(
-    service=Service(ChromeDriverManager().install()), options=options)
+driver: uc.Chrome = uc.Chrome(options=options)
 
 # Initialize Action Chains
 action_chains: ActionChains = ActionChains(driver)
@@ -30,7 +26,8 @@ driver.set_window_size(800, 800)
 set_once = False
 
 
-def the_gulper_bot(driver: webdriver.Chrome):
+
+def the_gulper_bot(driver: uc.Chrome):
     """The Gulper Bot: A bot that gulps the blobs in the game gulper.io
 
     Args:
@@ -60,6 +57,7 @@ def the_gulper_bot(driver: webdriver.Chrome):
         driver.execute_script("document.getElementById('framerate').click()")
         set_once = True
         time.sleep(0.25)
+        time.sleep(10)
 
     # Hide Ads
     driver.execute_script("window.ADS_BLOCKED = true;")

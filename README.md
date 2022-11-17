@@ -26,21 +26,18 @@ python gulpy.py
 
 ## Gulpy the Gulper.io Bot in Action
 
-**Home Page**
+<video src="images/screen_record.mp4" style="max-width: 500px;"></video>
 
-<img src="images/screenshot_001.png" width="500" />
-
-**Updating Name**
-
-<img src="images/screenshot_002.png" width="500" />
-
-**Moving**
-
-<img src="images/screenshot_003.png" width="500" />
-
-**Eating**
-
-<img src="images/screenshot_004.png" width="500" />
+<table>
+  <tr>
+    <td><img src="images/screenshot_001.png" width="350" /></td>
+    <td><img src="images/screenshot_002.png" width="350" /></td>
+  </tr>
+  <tr>
+    <td><img src="images/screenshot_003.png" width="350" /></td>
+    <td><img src="images/screenshot_004.png" width="350" /></td>
+  </tr>
+</table>
 
 
 ### Disclaimer
