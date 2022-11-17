@@ -26,20 +26,16 @@ python gulpy.py
 
 ## Gulpy the Gulper.io Bot in Action
 
-<table width="100%">
-  <tr>
-    <td width="100%">![gulpy-the-gulper-bot](https://user-images.githubusercontent.com/26208205/202543925-cd710bf0-3486-42c5-8998-29d87c59bb78.gif)</td>
-  </tr>
-</table>
+![gulpy-the-gulper-bot](https://user-images.githubusercontent.com/26208205/202543925-cd710bf0-3486-42c5-8998-29d87c59bb78.gif)
 
 <table width="100%">
   <tr>
-    <td width="50%"><img src="images/screenshot_001.png" width="50%" /></td>
-    <td width="50%"><img src="images/screenshot_002.png" width="50%" /></td>
+    <td width="50%"><img src="images/screenshot_001.png" width="350" /></td>
+    <td width="50%"><img src="images/screenshot_002.png" width="350" /></td>
   </tr>
   <tr>
-    <td width="50%"><img src="images/screenshot_003.png" width="50%" /></td>
-    <td width="50%"><img src="images/screenshot_004.png" width="50%" /></td>
+    <td width="50%"><img src="images/screenshot_003.png" width="350" /></td>
+    <td width="50%"><img src="images/screenshot_004.png" width="350" /></td>
   </tr>
 </table>
 
