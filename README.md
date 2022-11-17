@@ -23,15 +23,19 @@ Then, download the appropriate version of [ChromeDriver](https://chromedriver.ch
 ## Gulpy the Gulper.io Bot in Action
 
 **Home Page**
+
 <img src="images/screenshot_001.png" width="500" />
 
 **Updating Name**
+
 <img src="images/screenshot_002.png" width="500" />
 
 **Moving**
+
 <img src="images/screenshot_003.png" width="500" />
 
 **Eating**
+
 <img src="images/screenshot_004.png" width="500" />
 
 
