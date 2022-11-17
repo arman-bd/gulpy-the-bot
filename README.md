@@ -26,7 +26,7 @@ python gulpy.py
 
 ## Gulpy the Gulper.io Bot in Action
 
-<video src="images/screen_record.mp4" style="max-width: 500px;"></video>
+![gulpy-the-gulper-bot](https://user-images.githubusercontent.com/26208205/202543925-cd710bf0-3486-42c5-8998-29d87c59bb78.gif)
 
 <table>
   <tr>
